@@ -136,7 +136,7 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://prasad-kmd.vercel.app/manifest.json"
+      "url": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/manifest-blogger-pm.json"
     }
   ],
   "scope": "/",
