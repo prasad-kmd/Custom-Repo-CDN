@@ -1,7 +1,7 @@
 {
-  "name": "Prasad Madhuranga",
+  "name": "Prasad Madhuranga's Blog",
   "_comment": "Created & Designed by Prasad Madhuranga @ 2024.03.30",
-  "short_name": "PRASAD.KMD™",
+  "short_name": "PRASAD.KMD™ 2024",
   "start_url": "https://prasad-kmd.blogspot.com/",
   "lang": "en-us",
   "orientation": "any",
@@ -22,7 +22,7 @@
     "security",
     "utilities"
   ],
-  "description": "PRASAD MADHURANGA'S OFFICIAL INDEX WEBSITE which provides you information about him. Categories:Web Developer,Web Designer,Content Writer,Blog Writer,Photographer,Draughtsperson,Graphic Designer, Author: Prasad Madhuranga, Designer: PRASAD.KMD™ 2023 , PRASAD.KMD™ - INFINTY IMAGINE WITH SINHAGIRI™ VISUAL STUDIO",
+  "description": "PRASAD MADHURANGA'S OFFICIAL BLOG WEBSITE which provides you information about world & Knowledge. Categories:Web Developer,Web Designer,Content Writer,Blog Writer,Photographer,Draughtsperson,Graphic Designer, Author: Prasad Madhuranga, Designer: PRASAD.KMD™ 2024 , PRASAD.KMD™ - INFINTE IMAGINATION WITH SINHAGIRI™ VISUAL STUDIO",
   "icons": [
     {
       "src": "https://raw.githubusercontent.com/prasad-kmd/Awesome-Portfolio-Website/main/assets/img/pwa/pwa48.png",
@@ -68,6 +68,18 @@
     }
   ],
   "shortcuts": [
+    {
+      "name": "Blog Page",
+      "url": "https://prasad-kmd.blogspot.com/",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/prasad-kmd/Awesome-Portfolio-Website/main/assets/img/pwa/shortcut.home.png",
+          "type": "image/png",
+          "sizes": "96x96",
+          "purpose": "any"
+        }
+      ]
+    },
     {
       "name": "Home Page",
       "url": "https://prasad-kmd.vercel.app/en.home.html",
