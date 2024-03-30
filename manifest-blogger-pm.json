@@ -119,6 +119,20 @@
   ],
   "screenshots": [
     {
+      "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/Screenshot.dark.01.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Blog Screen of Prasad Madhuranga's Blogger in Dark Mode."
+    },
+    {
+      "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/Screenshot.light.01.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Blog Screen of Prasad Madhuranga's Blogger in Light Mode."
+    },
+    {
       "src": "https://raw.githubusercontent.com/prasad-kmd/Awesome-Portfolio-Website/main/assets/img/screenshot/Screenshot.index.webp",
       "sizes": "1280x720",
       "type": "image/webp",
