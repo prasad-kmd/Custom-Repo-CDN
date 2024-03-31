@@ -82,7 +82,7 @@
       },
       {
         "name": "Mail",
-        "url": "mailto:prasad-madhuranga@outlook.com",
+        "url": "/p/contact-me.html",
         "icons": [
           {
             "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/gmail_96px.png",
@@ -94,7 +94,7 @@
       },
       {
         "name": "YouTube",
-        "url": "https://www.youtube.com/@sinhagirivisualstudio",
+        "url": "/p/youtube.html",
         "icons": [
           {
             "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/youtube_96px.png",
