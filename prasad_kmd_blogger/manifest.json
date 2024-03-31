@@ -6,8 +6,8 @@
     "lang": "en-us",
     "orientation": "any",
     "display": "standalone",
-    "background_color": "#548585",
-    "theme_color": "#757575",
+    "background_color": "#000000",
+    "theme_color": "#ffffff",
     "categories": [
       "books",
       "education",
@@ -82,7 +82,7 @@
       },
       {
         "name": "Mail",
-        "url": "/p/contact-me.html",
+        "url": "https://prasad-kmd.blogspot.com/p/contact-me.html",
         "icons": [
           {
             "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/gmail_96px.png",
@@ -94,7 +94,7 @@
       },
       {
         "name": "YouTube",
-        "url": "/p/youtube.html",
+        "url": "https://prasad-kmd.blogspot.com/p/youtube.html",
         "icons": [
           {
             "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/youtube_96px.png",
