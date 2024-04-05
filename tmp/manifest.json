@@ -1,100 +1,149 @@
 {
-    "version": "2.3.25",
     "name": "Universal Blogger",
+    "_comment": "Created, Designed & Published by Prasad Madhuranga @ 2024.03.30",
     "short_name": "UniBlog",
-    "description": "Install the Uni Blog App now!",
     "start_url": "https://the-universal-store.blogspot.com/",
-    "dir": "auto",
-    "lang": "en-US",
+    "lang": "en-us",
     "orientation": "any",
     "display": "standalone",
-    "prefer_related_applications": false,
-    "background_color": "#ffffff",
+    "background_color": "#000000",
     "theme_color": "#ffffff",
+    "categories": [
+      "books",
+      "education",
+      "entertainment",
+      "games",
+      "lifestyle",
+      "magazines",
+      "news",
+      "personalization",
+      "photo",
+      "productivity",
+      "security",
+      "utilities"
+    ],
+    "description": "Something you may know ...",
     "icons": [
-        {
-          "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa48.png",
-          "sizes": "48x48",
-          "type": "image/png",
-          "purpose": "any maskable"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa72.png",
-          "sizes": "72x72",
-          "type": "image/png",
-          "purpose": "any maskable"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa96.png",
-          "sizes": "96x96",
-          "type": "image/png",
-          "purpose": "any maskable"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa144.png",
-          "sizes": "144x144",
-          "type": "image/png",
-          "purpose": "any maskable"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa168.png",
-          "sizes": "168x168",
-          "type": "image/png",
-          "purpose": "any maskable"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa192.png",
-          "sizes": "192x192",
-          "type": "image/png",
-          "purpose": "any maskable"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa512.png",
-          "sizes": "512x512",
-          "type": "image/png",
-          "purpose": "any maskable"
-        }
-      ],
+      {
+        "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa168.png",
+        "sizes": "168x168",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/pwa512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
     "shortcuts": [
       {
-        "name": "Documentation",
-        "short_name": "Documentation",
-        "description": "Documentation for template",
-        "url": "/search/label/Documentation?utm_source=homescreen",
+        "name": "Blog Page",
+        "url": "https://the-universal-store.blogspot.com/",
         "icons": [
           {
             "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/Blogger_96px.png",
-            "sizes": "96x96"
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "any"
           }
         ]
       },
       {
-        "name": "Buy now!",
-        "short_name": "Buy",
-        "description": "Purchase Plus UI template",
-        "url": "/p/purchase.html?utm_source=homescreen",
+        "name": "Mail",
+        "url": "https://the-universal-store.blogspot.com/p/contact-me.html",
         "icons": [
           {
             "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/gmail_96px.png",
-            "sizes": "96x96"
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "any"
+          }
+        ]
+      },
+      {
+        "name": "YouTube",
+        "url": "https://the-universal-store.blogspot.com/p/youtube.html",
+        "icons": [
+          {
+            "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/pwa/youtube_96px.png",
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "any"
           }
         ]
       }
     ],
+    "screenshots": [
+      {
+        "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/Screenshot/Screenshot.dark.01.webp",
+        "sizes": "1280x720",
+        "type": "image/webp",
+        "form_factor": "wide",
+        "label": "Blog Screen of Prasad Madhuranga's Blogger in Dark Mode."
+      },
+      {
+        "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/Screenshot/Screenshot.light.01.webp",
+        "sizes": "1280x720",
+        "type": "image/webp",
+        "form_factor": "wide",
+        "label": "Blog Screen of Prasad Madhuranga's Blogger in Light Mode."
+      },
+      {
+        "src": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/assets/Screenshot/scrnsht_pm_blog_light01.webp",
+        "sizes": "1280x720",
+        "type": "image/webp",
+        "form_factor": "wide",
+        "label": "Blog Screen of Prasad Madhuranga's Blogger in Light Mode FHD."
+      }
+    ],
     "display_override": [
-        "standalone",
-        "window-controls-overlay"
-      ],
-      "related_applications": [
-        {
-          "platform": "webapp",
-          "url": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/tmp/manifest.json"
-        }
-      ],
-      "scope": "/",
+      "standalone",
+      "window-controls-overlay"
+    ],
+    "prefer_related_applications": false,
+    "related_applications": [
+      {
+        "platform": "webapp",
+        "url": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/tmp/manifest.json"
+      }
+    ],
+    "scope": "/",
+    "dir": "ltr",
     "scope_extensions": [
-        {
-          "origin": "*.the-universal-store.blogspot.com"
-        }
-      ]
+      {
+        "origin": "*.the-universal-store.blogspot.com"
+      }
+    ]
   }
