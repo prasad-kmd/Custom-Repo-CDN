@@ -3,11 +3,10 @@
     "name": "Universal Blogger",
     "short_name": "UniBlog",
     "description": "Install the Uni Blog App now!",
+    "start_url": "https://the-universal-store.blogspot.com/",
     "dir": "auto",
     "lang": "en-US",
     "orientation": "any",
-    "start_url": "/?utm_source=homescreen",
-    "scope": "/",
     "display": "standalone",
     "prefer_related_applications": false,
     "background_color": "#ffffff",
@@ -82,6 +81,17 @@
         ]
       }
     ],
+    "display_override": [
+        "standalone",
+        "window-controls-overlay"
+      ],
+      "related_applications": [
+        {
+          "platform": "webapp",
+          "url": "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/prasad_kmd_blogger/tmp/manifest.json"
+        }
+      ],
+      "scope": "/",
     "scope_extensions": [
         {
           "origin": "*.the-universal-store.blogspot.com"
