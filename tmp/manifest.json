@@ -2,7 +2,7 @@
     "name": "Universal Blogger",
     "_comment": "Created, Designed & Published by Prasad Madhuranga @ 2024.03.30",
     "short_name": "UniBlog",
-    "start_url": "https://the-universal-store.blogspot.com/",
+    "start_url": "/",
     "lang": "en-us",
     "orientation": "any",
     "display": "standalone",
