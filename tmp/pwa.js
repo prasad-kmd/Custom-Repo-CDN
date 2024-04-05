@@ -1,5 +1,5 @@
 if (typeof Lazy !== "function") {
-    /*! Lazy Function by Fineshop Design | uses HTML5 localStorage */
+    /*! Lazy Function | uses HTML5 localStorage */
     (function(e) {
       var t = [];
   
@@ -37,7 +37,7 @@ if (typeof Lazy !== "function") {
      * Register Workbox Service Worker
      */
     navigator.serviceWorker
-      .register("/app/serviceworker.js", {
+      .register("https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/tmp/sw.js", {
         scope: "/",
       })
       .then((registration) => {
@@ -49,8 +49,8 @@ if (typeof Lazy !== "function") {
           logs.push(["Script: " + registration.active.scriptURL]);
         }
         logs.push(
-          ["Build by: Fineshop Design"],
-          ["Developer site: https://fineshopdesign.com"]
+          ["Build by: Universal Blogs"],
+          ["Developer site: https://the-universal-store.blogspot.com/"]
         );
   
         groupLog(
@@ -69,103 +69,5 @@ if (typeof Lazy !== "function") {
           ],
           ["Error:", error]
         );
-      });
-  
-    /**
-     * Helper function to initialize OneSignal
-     */
-    const initializeOneSignal = (config) => (OneSignal) => {
-      OneSignal.init(config)
-        .then(() => {
-          const logs = [
-            ["Version:", OneSignal.VERSION]
-          ];
-  
-          const config = OneSignal.config;
-          const subscription = OneSignal.User.PushSubscription;
-          const notification = OneSignal.Notifications;
-          const origin = window.location.origin;
-  
-          if (config) {
-            logs.push(["App ID:", config.appId]);
-            logs.push(["Origin:", config.origin]);
-            logs.push(["Site Name:", config.siteName]);
-  
-            const userConfig = config.userConfig;
-  
-            if (userConfig) {
-              if (userConfig.serviceWorkerParam) {
-                logs.push(["Scope:", origin + userConfig.serviceWorkerParam.scope]);
-              }
-              logs.push(["Script:", origin + userConfig.path + userConfig.serviceWorkerPath]);
-            }
-          }
-  
-          if (subscription.id) {
-            logs.push(["Subscription ID:", subscription.id]);
-          }
-  
-          logs.push(["Notification:", notification.permissionNative]);
-  
-          groupLog(
-            [
-              "%cOneSignal: Initialized Successfully",
-              "color: green"
-            ],
-            logs
-          );
-        })
-        .catch((error) => {
-          groupLog(
-            [
-              "%cOneSignal: Initialisation Failed",
-              "color: red"
-            ],
-            ["Error:", error]
-          );
-        });
-    };
-  
-    /**
-     * Initialize OneSignal if enabled
-     */
-    if (app.oneSignalEnabled) {
-      const oneSignalConfig = Object.assign({}, app.oneSignalConfig);
-      window.OneSignalDeferred = window.OneSignalDeferred || [];
-      OneSignalDeferred.push(
-        initializeOneSignal(oneSignalConfig)
-      );
-  
-      /**
-       * Load OneSignal SDK only if required
-       * Uses Lazy to lazyload javascript for better performance
-       * 
-       * @see https://www.fineshopdesign.com/2023/04/lazyloading-javascript.html
-       */
-      if (typeof OneSignal === "undefined") {
-        Lazy(() => {
-          const script = document.createElement("script");
-          Object.assign(script, {
-            src: app.oneSignalSDK,
-            async: true,
-            defer: true
-          });
-          const firstScript = document.getElementsByTagName("script")[0];
-          if (firstScript && firstScript.parentNode) {
-            firstScript.parentNode.insertBefore(script, firstScript);
-          } else {
-            document.head.appendChild(script);
-          }
-        });
-      }
-    }
-  })({
-    consoleLogs: true,
-    oneSignalEnabled: true,
-    oneSignalSDK: "https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js",
-    oneSignalConfig: {
-      appId: "05f18e2f-3e9a-466d-b8c4-a9344b7f8e95",
-      allowLocalhostAsSecureOrigin: true
-    }
-  });
-  
+      })
+    });

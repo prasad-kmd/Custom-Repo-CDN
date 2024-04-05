@@ -1,5 +1,5 @@
 /**
- * PWA build by Fineshop Design
+ *
  */
 importScripts(
     "https://storage.googleapis.com/workbox-cdn/releases/7.0.0/workbox-sw.js"
@@ -8,14 +8,14 @@ importScripts(
   // Configurations for PWA App
   const config = {
     app: {
-      name: "fineshop-pwa-app",
-      version: "v1",
+      name: "UniBlog-v125",
+      version: "v1.2.5",
       precache: "install-time",
       runtime: "run-time",
     },
     fallback: "/app/fallback/",
-    manifest: "/app/manifest.json",
-    favicon: "/app/icons/favicon.ico",
+    manifest: "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/tmp/manifest.json",
+    favicon: "https://raw.githubusercontent.com/prasad-kmd/Custom-Repo-CDN/main/tmp/favicon.png",
   };
   
   // Check if workbox-sw is successfully imported
